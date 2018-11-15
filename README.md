@@ -4,7 +4,7 @@
 
 - [Bazel build event prototol](https://docs.bazel.build/versions/master/build-event-protocol.html) bazel 构建事件生成
 
-- [google protobuf](https://developers.google.com/protocol-buffers/)
+- [google protobuf](https://developers.google.com/protocol-buffers/) google序列化工具
 
 ## 作用
 
