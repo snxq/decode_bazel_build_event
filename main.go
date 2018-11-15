@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"strings"
 
-	pb "go_protobuf_test/BuildEventStream"
+	pb "decode_bazel_build_event/BuildEventStream"
 
 	"github.com/golang/protobuf/proto"
 )

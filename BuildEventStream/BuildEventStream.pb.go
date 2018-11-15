@@ -4,8 +4,8 @@
 package BuildEventStream
 
 import (
+	protobuf "decode_bazel_build_event/ProtoBuf"
 	fmt "fmt"
-	protobuf "go_protobuf_test/ProtoBuf"
 	math "math"
 
 	proto "github.com/golang/protobuf/proto"
