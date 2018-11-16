@@ -1,0 +1,13 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "h1oa5QrwQwy5Vs8OabAiFb89NC4=",
+			"path": "github.com/golang/protobuf/proto",
+			"revision": "951a149f90371fb8858c6c979d03bb2583611052",
+			"revisionTime": "2018-11-08T17:20:01Z"
+		}
+	],
+	"rootPath": "decode_bazel_build_event"
+}
