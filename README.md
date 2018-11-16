@@ -14,10 +14,18 @@
 
 BuildEventStream 和 ProtoBuf 是由bazel官方提供的proto文件生成的pb.go文件用于解析。
 
-依赖[build_event_stream.proto](https://github.com/bazelbuild/bazel/blob/master/src/main/java/com/google/devtools/build/lib/buildeventstream/proto/build_event_stream.proto)
+根据[build_event_stream.proto](https://github.com/bazelbuild/bazel/blob/master/src/main/java/com/google/devtools/build/lib/buildeventstream/proto/build_event_stream.proto)生成。
 
 ## 流程
 
-1. 项目.bazelrc中添加build build --build_event_binary_file=/path/to/file
+1. 项目.bazelrc中添加
+
+    build build --build_event_binary_file=/path/to/file
 2. 使用bazel 编译项目生成事件文件以及生成输出文件。
-3. 运行该项目。go run main.go --file=/path/to/file
+
+    bazel build //...
+3. 运行该项目。
+
+    go get github.com/yodark1995/decode_bazel_build_event
+
+    go run main.go --file=/path/to/file
