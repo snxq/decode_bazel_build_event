@@ -7,6 +7,12 @@
 			"path": "github.com/golang/protobuf/proto",
 			"revision": "951a149f90371fb8858c6c979d03bb2583611052",
 			"revisionTime": "2018-11-08T17:20:01Z"
+		},
+		{
+			"checksumSHA1": "rQjROrsWRippx2XYk4AZXdliciQ=",
+			"path": "github.com/yodark1995/decode_bazel_build_event",
+			"revision": "f8280e60e9cf55fde2f58f6302993f0fb8165be5",
+			"revisionTime": "2018-11-15T09:25:30Z"
 		}
 	],
 	"rootPath": "decode_bazel_build_event"
